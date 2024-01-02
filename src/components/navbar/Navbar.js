@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaLinkedinIn,FaTiktok,FaGithub} from "react-icons/fa";
 import {logo} from "../../assets/index"
 import { navLinksdata } from '../../constants';
 
@@ -10,9 +10,14 @@ const Navbar = () => {
   const [showMenu, setShowMenu]=useState(false)
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
-      <div>
-        <img src={logo} alt="logo" />
-      </div>
+      <div style={{ width: '50px', height: '50px', borderRadius: '50%', overflow: 'hidden' }}>
+  <img
+    style={{ width: '100%', height: '100%', borderRadius: '50%' }}
+    src={logo}
+    alt="logo"
+  />
+</div>
+
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
           {navLinksdata.map(({ _id, title, link }) => (
@@ -45,9 +50,7 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
+                Je m'appelle Lakhmi Hichem Bilel, étudiant en informatique passionné par le développement logiciel. Fort d'une expertise en Flutter et Java pour les applications mobiles, ainsi que Node.js et le framework Express pour les serveurs. J'ai également une expérience approfondie dans le développement backend, notamment avec Firebase, MongoDB, et MySQL
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
@@ -75,15 +78,21 @@ const Navbar = () => {
                   Find me in
                 </h2>
                 <div className="flex gap-4">
-                  <span className="bannerIcon">
-                    <FaFacebookF />
-                  </span>
-                  <span className="bannerIcon">
-                    <FaTwitter />
-                  </span>
-                  <span className="bannerIcon">
-                    <FaLinkedinIn />
-                  </span>
+                <a href="https://www.facebook.com/profile.php?id=100016438029582" className="bannerIcon" target="_blank" rel="noopener noreferrer">
+            <FaFacebookF />
+          </a>
+          <a href="https://www.instagram.com/bilel_hichem/" className="bannerIcon" target="_blank" rel="noopener noreferrer">
+            <FaInstagram />
+          </a>
+          <a href="https://www.linkedin.com/in/lakhmi-hichem-billal-a3b273255/" className="bannerIcon" target="_blank" rel="noopener noreferrer">
+            <FaLinkedinIn />
+          </a>
+          <a href="https://www.tiktok.com/@bilelhichem1?lang=en" className="bannerIcon" target="_blank" rel="noopener noreferrer">
+            <FaTiktok />
+          </a>
+          <a href="https://github.com/bilelhichem" className="bannerIcon" target="_blank" rel="noopener noreferrer">
+            <FaGithub />
+          </a>
                 </div>
               </div>
               <span
