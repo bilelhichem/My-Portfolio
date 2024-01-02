@@ -1,5 +1,5 @@
 import logo from "./images/1679667687256.jpeg";
-import bannerImg from "./images/1679667687256.jpeg";
+import bannerImg from "./images/IMG_2389-US DV-2022 Lottery-600x600 px.jpg";
 import projectOne from "./images/projects/projectOne.jpg";
 import projectTwo from "./images/projects/projectTwo.jpg";
 import projectThree from "./images/projects/projectThree.jpeg";
