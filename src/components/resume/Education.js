@@ -65,7 +65,7 @@ const Education = () => {
 />
 
 <ResumeCard
-  title="Node.js et el framework Express"
+  title="Node.js et  framework Express"
   des="
   (2023/2024)
   "

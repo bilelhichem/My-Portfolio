@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
+import { projectOne, projectTwo, projectThree ,projectfour} from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -17,41 +17,31 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          title="hospital management"
+          des="For a multidisciplinary hospital management project as the culmination of my studies in computer science preparatory class, my role is to develop the backend for the website using Firebase"
           src={projectOne}
+          href={"https://github.com/bilelhichem7/Cliniqueweb"}
         />
-        <ProjectsCard
-          title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+           <ProjectsCard
+          title="Books app"
+          des="With this application, you can read and download books in PDF format."
           src={projectTwo}
+          href={"https://github.com/bilelhichem/Book-app"}
         />
-        <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+           <ProjectsCard
+          title="Fodei"
+          des="Restaurant Booking App"
           src={projectThree}
+          href={"https://github.com/bilelhichem/FoodEcommerce"}
         />
-        <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
+           <ProjectsCard
+          title="Api Chat Gpt"
+          des="You can use ChatGPT in its formal app"
+          src={projectfour}
+          href={"https://github.com/bilelhichem/ApiChatGpt"}
         />
-        <ProjectsCard
-          title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectOne}
-        />
-        <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
-        />
+       
+     
       </div>
     </section>
   );

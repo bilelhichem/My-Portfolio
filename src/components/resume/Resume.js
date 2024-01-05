@@ -2,12 +2,13 @@ import React, {  useState } from 'react'
 import Title from '../layouts/Title';
 import Education from './Education';
 import Skills from './Skills';
+import Mycertficat from './mycertficat';
 
 
 const Resume = () => {
    const [educationData, setEducationData] = useState(true);
    const [skillData, setSkillData] = useState(false);
-
+   const [certficat, setcertficat] = useState(false);
  
   return (
     <section id="resume" className="w-full py-20 border-b-[1px] border-b-black ">
@@ -20,7 +21,8 @@ const Resume = () => {
           <li
             onClick={() =>
               setEducationData(true) &
-              setSkillData(false) 
+              setSkillData(false) &
+              setcertficat(false)
             }
             className={`${
               educationData
@@ -33,7 +35,8 @@ const Resume = () => {
           <li
             onClick={() =>
               setEducationData(false) &
-              setSkillData(true) 
+              setSkillData(true) &
+              setcertficat(false)
             }
             className={`${
               skillData ? "border-designColor rounded-lg" : "border-transparent"
@@ -44,7 +47,20 @@ const Resume = () => {
           <li
             onClick={() =>
               setEducationData(false) &
-              setSkillData(false) 
+              setSkillData(false) &
+              setcertficat(true)
+            }
+            className={`${
+              certficat ? "border-designColor rounded-lg" : "border-transparent"
+            } resumeLi`}
+          >
+            My certificates
+          </li>
+          <li
+            onClick={() =>
+              setEducationData(false) &
+              setSkillData(false) &
+              setcertficat(false)
             }
           >
            
@@ -52,7 +68,8 @@ const Resume = () => {
           <li
             onClick={() =>
               setEducationData(false) &
-              setSkillData(false) 
+              setSkillData(false) &
+              setcertficat(false)
             }
             
           >
@@ -62,6 +79,7 @@ const Resume = () => {
       </div>
       {educationData && <Education />}
       {skillData && <Skills />}
+      {certficat && <Mycertficat />}
     
  
     </section>
