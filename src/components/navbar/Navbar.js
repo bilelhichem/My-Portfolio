@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import { FaFacebookF, FaInstagram, FaLinkedinIn,FaTiktok,FaGithub} from "react-icons/fa";
 import {logo} from "../../assets/index"
 import { navLinksdata } from '../../constants';
 
@@ -47,12 +46,7 @@ const Navbar = () => {
         {showMenu && (
           <div className="w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide">
             <div className="flex flex-col gap-8 py-2 relative">
-              <div>
-                <img className="w-32" src={logo} alt="logo" />
-                <p className="text-sm text-gray-400 mt-2">
-                Je m'appelle Lakhmi Hichem Bilel, étudiant en informatique passionné par le développement logiciel. Fort d'une expertise en Flutter et Java pour les applications mobiles, ainsi que Node.js et le framework Express pour les serveurs. J'ai également une expérience approfondie dans le développement backend, notamment avec Firebase, MongoDB, et MySQL
-                </p>
-              </div>
+              
               <ul className="flex flex-col gap-4">
                 {navLinksdata.map((item) => (
                   <li
@@ -73,28 +67,7 @@ const Navbar = () => {
                   </li>
                 ))}
               </ul>
-              <div className="flex flex-col gap-4">
-                <h2 className="text-base uppercase font-titleFont mb-4">
-                  Find me in
-                </h2>
-                <div className="flex gap-4">
-                <a href="https://www.facebook.com/profile.php?id=100016438029582" className="bannerIcon" target="_blank" rel="noopener noreferrer">
-            <FaFacebookF />
-          </a>
-          <a href="https://www.instagram.com/bilel_hichem/" className="bannerIcon" target="_blank" rel="noopener noreferrer">
-            <FaInstagram />
-          </a>
-          <a href="https://www.linkedin.com/in/lakhmi-hichem-billal-a3b273255/" className="bannerIcon" target="_blank" rel="noopener noreferrer">
-            <FaLinkedinIn />
-          </a>
-          <a href="https://www.tiktok.com/@bilelhichem1?lang=en" className="bannerIcon" target="_blank" rel="noopener noreferrer">
-            <FaTiktok />
-          </a>
-          <a href="https://github.com/bilelhichem" className="bannerIcon" target="_blank" rel="noopener noreferrer">
-            <FaGithub />
-          </a>
-                </div>
-              </div>
+              
               <span
                 onClick={() => setShowMenu(false)}
                 className="absolute top-4 right-4 text-gray-400 hover:text-designColor duration-300 text-2xl cursor-pointer"
