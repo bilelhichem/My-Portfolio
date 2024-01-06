@@ -4,9 +4,7 @@ import projectOne from "./images/projects/modical.png";
 import projectTwo from "./images/projects/bookapp.png";
 import projectThree from "./images/projects/FoodEcommerce.png";
 import projectfour  from "./images/projects/apichatgpt.png";
-import testimonialOne from "./images/testmonial/testimonialOne.png";
-import testimonialTwo from "./images/testmonial/testimonialTwo.png";
-import quote from "./images/testmonial/quote.png";
+
 import contactImg from "./images/contact/contactImg.png";
 import cert1 from "./images/certficat/certficatsql.jpeg";
 import cert2 from "./images/certficat/fluttercertficat.jpeg";
@@ -19,9 +17,6 @@ export {
   projectTwo,
   projectThree,
   projectfour,
-  testimonialOne,
-  testimonialTwo,
-  quote,
   contactImg,
   cert1,cert2,cert3 
 };
