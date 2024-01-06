@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/My-Portfolio/static/css/main.154080f4.css",
-    "main.js": "/My-Portfolio/static/js/main.8d081c5c.js",
+    "main.js": "/My-Portfolio/static/js/main.80ffe49b.js",
     "static/media/modical.png": "/My-Portfolio/static/media/modical.24e3f5ec52f928852a70.png",
     "static/media/bookapp.png": "/My-Portfolio/static/media/bookapp.05235d07dea0913ff507.png",
     "static/media/FoodEcommerce.png": "/My-Portfolio/static/media/FoodEcommerce.127f9f5386986945753a.png",
@@ -14,10 +14,10 @@
     "static/media/1679667687256.jpeg": "/My-Portfolio/static/media/1679667687256.291c76e966510f08fa04.jpeg",
     "index.html": "/My-Portfolio/index.html",
     "main.154080f4.css.map": "/My-Portfolio/static/css/main.154080f4.css.map",
-    "main.8d081c5c.js.map": "/My-Portfolio/static/js/main.8d081c5c.js.map"
+    "main.80ffe49b.js.map": "/My-Portfolio/static/js/main.80ffe49b.js.map"
   },
   "entrypoints": [
     "static/css/main.154080f4.css",
-    "static/js/main.8d081c5c.js"
+    "static/js/main.80ffe49b.js"
   ]
 }
