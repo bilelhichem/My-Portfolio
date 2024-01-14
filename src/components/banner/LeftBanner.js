@@ -25,8 +25,7 @@ const LeftBanner = () => {
           <Cursor cursorBlinking="false" cursorStyle="|" cursorColor="#ff014f" />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-        Je m'appelle Lakhmi Hichem Bilel, étudiant en informatique passionné par le développement logiciel. Fort d'une expertise en Flutter et Java pour les applications mobiles, ainsi que Node.js et le framework Express pour les serveurs. J'ai également une expérience approfondie dans le développement backend, notamment avec Firebase, MongoDB, et MySQL
-        </p>
+        I am Lakhmi Hichem Bilel, a computer science student passionate about software development. I have expertise in Flutter and Java for mobile applications, as well as Node.js and the Express framework for servers. I also have extensive experience in backend development, particularly with Firebase, MongoDB, and MySQL  </p>
       </div>
       {/* Media */}
       <Media />
