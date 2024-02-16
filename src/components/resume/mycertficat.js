@@ -1,6 +1,6 @@
 import React from 'react'
 import CertCard from './certcard';
-import { cert1, cert2, cert3 ,cert4} from "../../assets/index";
+import { cert1, cert2, cert3 ,cert4,cert5} from "../../assets/index";
 
 const Mycertficat = () => {
   return (
@@ -33,6 +33,12 @@ const Mycertficat = () => {
           
           des="mon certificat pour avoir suivi le cours JavaScript Essentials 1 de la Cisco Networking Academy"
           src={cert4}
+        />
+
+<CertCard
+          
+          des="My certificate for participating in the ESI Showcase event organized by the Ingeniums Scientific Club to present our interdisciplinary project alongside other students"
+          src={cert5}
         />
         
      
