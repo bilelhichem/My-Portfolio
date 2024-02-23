@@ -1,24 +1,26 @@
 {
   "files": {
     "main.css": "/My-Portfolio/static/css/main.53c772f0.css",
-    "main.js": "/My-Portfolio/static/js/main.698b879a.js",
+    "main.js": "/My-Portfolio/static/js/main.39c4e45c.js",
     "static/media/modical.png": "/My-Portfolio/static/media/modical.24e3f5ec52f928852a70.png",
     "static/media/bookapp.png": "/My-Portfolio/static/media/bookapp.05235d07dea0913ff507.png",
     "static/media/FoodEcommerce.png": "/My-Portfolio/static/media/FoodEcommerce.127f9f5386986945753a.png",
     "static/media/JsCertficat_page-0001.jpg": "/My-Portfolio/static/media/JsCertficat_page-0001.c16fea9c4899b7a153d6.jpg",
     "static/media/certficatsql.jpeg": "/My-Portfolio/static/media/certficatsql.e0b05244e2919c0ec65a.jpeg",
     "static/media/fluttercertficat.jpeg": "/My-Portfolio/static/media/fluttercertficat.ae9c1c77935502d7fa90.jpeg",
+    "static/media/nodejspic.jpeg": "/My-Portfolio/static/media/nodejspic.c09fb92ce0b5606e61a2.jpeg",
     "static/media/Postamcertf.jpeg": "/My-Portfolio/static/media/Postamcertf.f55d480fe703da34982e.jpeg",
     "static/media/IMG_2389-US DV-2022 Lottery-600x600 px.jpg": "/My-Portfolio/static/media/IMG_2389-US DV-2022 Lottery-600x600 px.2e7b37ea937f8cd959ea.jpg",
+    "static/media/2024-02-16 17.32.25.jpg": "/My-Portfolio/static/media/2024-02-16 17.32.25.d0ae40e28d7eb3dcc236.jpg",
     "static/media/contactImg.png": "/My-Portfolio/static/media/contactImg.8ddfbfd11798f881db54.png",
     "static/media/apichatgpt.png": "/My-Portfolio/static/media/apichatgpt.17bc5cb2431cf9b6859d.png",
     "static/media/1679667687256.jpeg": "/My-Portfolio/static/media/1679667687256.291c76e966510f08fa04.jpeg",
     "index.html": "/My-Portfolio/index.html",
     "main.53c772f0.css.map": "/My-Portfolio/static/css/main.53c772f0.css.map",
-    "main.698b879a.js.map": "/My-Portfolio/static/js/main.698b879a.js.map"
+    "main.39c4e45c.js.map": "/My-Portfolio/static/js/main.39c4e45c.js.map"
   },
   "entrypoints": [
     "static/css/main.53c772f0.css",
-    "static/js/main.698b879a.js"
+    "static/js/main.39c4e45c.js"
   ]
 }
