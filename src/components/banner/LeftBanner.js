@@ -16,7 +16,7 @@ const LeftBanner = () => {
   return (
     <div className="w-full lgl:w-1/2 flex flex-col gap-20">
       <div className="flex flex-col gap-5">
-        <h4 className="text-lg font-normal">WELCOME People</h4>
+        <h4 className="text-lg font-normal">Welcome to My Portfolio</h4>
         <h1 className="text-6xl font-bold text-white">
           Hi, I'm <span className="text-designColor capitalize">LAKHMI HICHEM BILLAL</span>
         </h1>
@@ -25,7 +25,7 @@ const LeftBanner = () => {
           <Cursor cursorBlinking="false" cursorStyle="|" cursorColor="#ff014f" />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-        I am Lakhmi Hichem Bilel, a computer science student passionate about software development. I have expertise in Flutter and Java for mobile applications, as well as Node.js and the Express framework for servers. I also have extensive experience in backend development, particularly with Firebase, MongoDB, and MySQL  </p>
+        I am Lakhmi Hichem Bilel, a computer science student with a passion for software development. I specialize in mobile application development using Flutter and Java, and in backend development with Node.js and the Express framework. I have extensive experience with both relational (MySQL) and non-relational (Firebase, MongoDB) databases. Additionally, I am skilled in frontend development with Java and Flutter. </p>
       </div>
       {/* Media */}
       <Media />

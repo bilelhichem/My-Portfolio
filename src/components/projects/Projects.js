@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree ,projectfour} from "../../assets/index";
+import { projectOne, projectTwo, projectThree ,projectfour,png3, hadj,sec} from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -40,9 +40,43 @@ const Projects = () => {
           src={projectfour}
           href={"https://github.com/bilelhichem/ApiChatGpt"}
         />
+
+<ProjectsCard
+          title="VERKET"
+          des="Application for Biological Products"
+          src={png3}
+          href={"https://github.com/bilelhichem/VERKET"}
+        />
+       <ProjectsCard
+          title="Hajj in Algeria"
+          des="Backend for Managing Hajj in Algeria from Point A to Point Z
+
+Includes functionalities such as lottery drawing, reservation, and payment for all Hajj-related operations.
+
+Technologies used: Node.js, MySQL, TypeScript, Express"
+          src={hadj}
+          href={"https://github.com/1CS-Project/Backend"}
+        />
+
+
+<ProjectsCard
+          title="Hill Cipher Application"
+          des="Java Application for Encryption and Decryption Using Hill Cipher with Modulo 256"
+          src={sec}
+          href={"https://github.com/bilelhichem/HillCipherApp"}
+        />
        
      
+      
+     
       </div>
+
+      
+
+
+
+
+
     </section>
   );
 }
