@@ -11,11 +11,7 @@ const Contact = () => {
   const [successMsg, setSuccessMsg] = useState('');
   const form = useRef();
 
-  const emailValidation = () => {
-    return String(email)
-      .toLocaleLowerCase()
-      .match(/^\w+([-]?\w+)*@\w+([-]?\w+)*(\.\w{2,3})+$/);
-  };
+
 
   const sendEmail = (e) => {
     e.preventDefault();
