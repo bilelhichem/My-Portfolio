@@ -5,7 +5,7 @@ const Media = () => {
   return (
     <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
       <div>
-        <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
+        <h2 className="text-base uppercase font-titleFont mb-4 text-black">Find me in</h2>
         <div className="flex gap-4">
           <a href="https://www.facebook.com/profile.php?id=100016438029582" className="bannerIcon" target="_blank" rel="noopener noreferrer">
             <FaFacebookF />
@@ -21,6 +21,13 @@ const Media = () => {
           </a>
           <a href="https://github.com/bilelhichem" className="bannerIcon" target="_blank" rel="noopener noreferrer">
             <FaGithub />
+          </a>
+          <a
+           href="./hichemcv.pdf"  
+           download="Hichem_Lakhmi_CV.pdf"
+           className="flex items-center justify-center px-6 py-2 bg-designColor text-white font-medium rounded-lg hover:bg-opacity-90 transition duration-300"
+          >
+            Resume
           </a>
         </div>
       </div>
