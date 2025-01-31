@@ -19,6 +19,7 @@ module.exports = {
         titleFont: ["Montserrat", "sans-serif"],
       },
       colors: {
+        
         bodyColor: "#FFFFFF",
         lightText: "#c4cfde",
         boxBg: "linear-gradient(145deg, #1e2024, #23272b)",
