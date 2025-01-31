@@ -1,26 +1,26 @@
 import React from 'react'
 import { FaFacebookF, FaInstagram, FaLinkedinIn,FaGithub,FaTiktok } from "react-icons/fa";
-import { contactImg } from "../../assets/index";
+import {  f } from "../../assets/index";
 
 const ContactLeft = () => {
   return (
     <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-4 lgl:p-8 rounded-lg shadow-shadowOne flex flex-col gap-8 justify-center">
       <img
         className="w-full h-64 object-cover rounded-lg mb-2"
-        src={contactImg}
+        src={f}
         alt="contactImg"
       />
       <div className="flex flex-col gap-4">
         <h3 className="text-3xl font-bold text-white">Lakhmi Hichem Billal</h3>
         <p className="text-lg font-normal text-gray-400">
-        full-stack developer
+        Full-stack developer && AI
         </p>
        
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Phone: <span className="text-lightText">+213554728663</span>
+          Phone: <span className="text-lightText">+33751399945</span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Email: <span className="text-lightText">lakhmibilel12@gmail.com</span>
+          Email: <span className="text-lightText">lakhmibilel12@gmail.com || lakhmibilelhichem@gmail.com</span>
         </p>
       </div>
       <div className="flex flex-col gap-4">

@@ -8,7 +8,7 @@ import png1 from "./images/projects/1.png";
 import png2 from "./images/projects/4.png";
 import png3 from "./images/projects/6.png";
 
-import contactImg from "./images/contact/contactImg.png";
+import f from "./images/contact/f.jpg"
 import cert1 from "./images/certficat/certficatsql.jpeg";
 import cert2 from "./images/certficat/fluttercertficat.jpeg";
 import cert3 from "./images/certficat/Postamcertf.jpeg";
@@ -29,6 +29,6 @@ export {
   projectTwo,
   projectThree,
   projectfour,
-  contactImg,
+  f,
   cert1,cert2,cert3 ,cert4,cert5,cert6,png1,png2,png3,hadj,sec
 };
