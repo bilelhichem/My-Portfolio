@@ -3,12 +3,15 @@ import Title from '../layouts/Title';
 import Education from './Education';
 import Skills from './Skills';
 import Mycertficat from './mycertficat';
+import ExperienceProfessionnelle from "./experienceprof"
 
 
 const Resume = () => {
    const [educationData, setEducationData] = useState(true);
    const [skillData, setSkillData] = useState(false);
    const [certficat, setcertficat] = useState(false);
+   const [exper, setexper] = useState(false);
+  
  
   return (
     <section id="resume" className="w-full py-20 border-b-[1px] border-b-black ">
@@ -22,7 +25,8 @@ const Resume = () => {
             onClick={() =>
               setEducationData(true) &
               setSkillData(false) &
-              setcertficat(false)
+              setcertficat(false)&
+              setexper(false)
             }
             className={`${
               educationData
@@ -35,8 +39,22 @@ const Resume = () => {
           <li
             onClick={() =>
               setEducationData(false) &
+              setSkillData(false) &
+              setcertficat(false)&
+              setexper(true)
+            }
+            className={`${
+              exper ? "border-designColor rounded-lg" : "border-transparent"
+            } resumeLi`}
+          >
+          Professional experiences
+          </li>
+          <li
+            onClick={() =>
+              setEducationData(false) &
               setSkillData(true) &
-              setcertficat(false)
+              setcertficat(false)&
+              setexper(false)
             }
             className={`${
               skillData ? "border-designColor rounded-lg" : "border-transparent"
@@ -48,7 +66,8 @@ const Resume = () => {
             onClick={() =>
               setEducationData(false) &
               setSkillData(false) &
-              setcertficat(true)
+              setcertficat(true)&
+              setexper(false)
             }
             className={`${
               certficat ? "border-designColor rounded-lg" : "border-transparent"
@@ -56,11 +75,13 @@ const Resume = () => {
           >
             My certificates
           </li>
+        
           <li
             onClick={() =>
               setEducationData(false) &
               setSkillData(false) &
-              setcertficat(false)
+              setcertficat(false)&
+              setexper(false)
             }
           >
            
@@ -69,7 +90,8 @@ const Resume = () => {
             onClick={() =>
               setEducationData(false) &
               setSkillData(false) &
-              setcertficat(false)
+              setcertficat(false)&
+              setexper(false)
             }
             
           >
@@ -80,6 +102,7 @@ const Resume = () => {
       {educationData && <Education />}
       {skillData && <Skills />}
       {certficat && <Mycertficat />}
+      {exper && <ExperienceProfessionnelle />}
     
  
     </section>
