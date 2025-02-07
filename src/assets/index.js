@@ -15,6 +15,7 @@ import cert3 from "./images/certficat/Postamcertf.jpeg";
 import cert4 from "./images/certficat/JsCertficat_page-0001.jpg";
 import cert5 from "./images/certficat/2024-02-16 17.32.25.jpg";
 import cert6 from "./images/certficat/nodejspic.jpeg";
+import cert7 from "./images/certficat/cert.jpeg";
 
 import hadj from "./images/projects/Frame 1000003263.png";
 import sec from "./images/projects/security.png";
@@ -30,5 +31,5 @@ export {
   projectThree,
   projectfour,
   f,
-  cert1,cert2,cert3 ,cert4,cert5,cert6,png1,png2,png3,hadj,sec
+  cert1,cert2,cert3 ,cert4,cert5,cert6,png1,png2,png3,hadj,sec,cert7
 };
