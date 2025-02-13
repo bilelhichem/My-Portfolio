@@ -19,6 +19,7 @@ import cert7 from "./images/certficat/cert.jpeg";
 
 import hadj from "./images/projects/Frame 1000003263.png";
 import sec from "./images/projects/security.png";
+import housing from "./images/projects/housesbanner.png";
 
 
 
@@ -31,5 +32,5 @@ export {
   projectThree,
   projectfour,
   f,
-  cert1,cert2,cert3 ,cert4,cert5,cert6,png1,png2,png3,hadj,sec,cert7
+  cert1,cert2,cert3 ,cert4,cert5,cert6,png1,png2,png3,hadj,sec,cert7,housing
 };

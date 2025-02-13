@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree ,projectfour,png3, hadj,sec} from "../../assets/index";
+import { projectOne, projectTwo, projectThree ,projectfour,png3, hadj,sec,housing} from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -64,6 +64,14 @@ Technologies used: Node.js, MySQL, TypeScript, Express"
           des="Java Application for Encryption and Decryption Using Hill Cipher with Modulo 256"
           src={sec}
           href={"https://github.com/bilelhichem/HillCipherApp"}
+        />
+
+
+<ProjectsCard
+          title="Housing Prices Competition"
+          des="The housing price competition is when various market players, such as developers and buyers, compete to offer properties at competitive prices, influenced by factors like demand, supply, and interest rates"
+          src={housing}
+          href={"https://github.com/tayeb-sid/Housing-prices-competition"}
         />
        
      
