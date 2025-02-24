@@ -23,7 +23,7 @@ const Media = () => {
             <FaGithub />
           </a>
           <a
-           href="./hichemcv.pdf"  
+           href='./cv.pdf'
            download="Hichem_Lakhmi_CV.pdf"
            className="flex items-center justify-center px-6 py-2 bg-designColor text-white font-medium rounded-lg hover:bg-opacity-90 transition duration-300"
           >
