@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/My-Portfolio/static/css/main.f0cc3f8f.css",
-    "main.js": "/My-Portfolio/static/js/main.c3d33577.js",
+    "main.js": "/My-Portfolio/static/js/main.dab06d71.js",
     "static/media/Frame 1000003263.png": "/My-Portfolio/static/media/Frame 1000003263.3d31bddca9195dc33904.png",
     "static/media/modical.png": "/My-Portfolio/static/media/modical.24e3f5ec52f928852a70.png",
     "static/media/bookapp.png": "/My-Portfolio/static/media/bookapp.05235d07dea0913ff507.png",
@@ -13,7 +13,6 @@
     "static/media/nodejspic.jpeg": "/My-Portfolio/static/media/nodejspic.c09fb92ce0b5606e61a2.jpeg",
     "static/media/Postamcertf.jpeg": "/My-Portfolio/static/media/Postamcertf.f55d480fe703da34982e.jpeg",
     "static/media/cert.jpeg": "/My-Portfolio/static/media/cert.632e1a8f7d2c2798ccbc.jpeg",
-    "static/media/IMG_2389-US DV-2022 Lottery-600x600 px.jpg": "/My-Portfolio/static/media/IMG_2389-US DV-2022 Lottery-600x600 px.2e7b37ea937f8cd959ea.jpg",
     "static/media/housesbanner.png": "/My-Portfolio/static/media/housesbanner.4737b191603158d163f8.png",
     "static/media/4.png": "/My-Portfolio/static/media/4.6959bf8cc60555a9a837.png",
     "static/media/2024-02-16 17.32.25.jpg": "/My-Portfolio/static/media/2024-02-16 17.32.25.d0ae40e28d7eb3dcc236.jpg",
@@ -24,10 +23,10 @@
     "static/media/1.png": "/My-Portfolio/static/media/1.38985435a1494b034f07.png",
     "index.html": "/My-Portfolio/index.html",
     "main.f0cc3f8f.css.map": "/My-Portfolio/static/css/main.f0cc3f8f.css.map",
-    "main.c3d33577.js.map": "/My-Portfolio/static/js/main.c3d33577.js.map"
+    "main.dab06d71.js.map": "/My-Portfolio/static/js/main.dab06d71.js.map"
   },
   "entrypoints": [
     "static/css/main.f0cc3f8f.css",
-    "static/js/main.c3d33577.js"
+    "static/js/main.dab06d71.js"
   ]
 }

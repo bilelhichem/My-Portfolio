@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree ,projectfour,png3, hadj,sec,housing} from "../../assets/index";
+import { projectOne, projectTwo, projectThree ,projectfour,png3, hadj,sec,housing,llms} from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -74,6 +74,12 @@ Technologies used: Node.js, MySQL, TypeScript, Express"
           href={"https://github.com/tayeb-sid/Housing-prices-competition"}
         />
        
+       <ProjectsCard
+          title="Génération de Contenus Pédagogiques Adaptés"
+          des="Ce projet explore l'utilisation des grands modèles de langage (LLMs) pour améliorer l'apprentissage des élèves en générant des contenus pédagogiques personnalisés. L'idée est de mieux adapter les ressources éducatives aux connaissances préexistantes et aux représentations mentales des élèves, afin de favoriser une meilleure compréhension. En tenant compte des prérequis de chaque élève, ce projet permet de générer des contenus plus pertinents et adaptés, contribuant ainsi à rendre l'apprentissage plus efficace et accessible à tous."
+          src={llms}
+          href={"https://github.com/bilelhichem/LLms.git"}
+        />
      
       
      
